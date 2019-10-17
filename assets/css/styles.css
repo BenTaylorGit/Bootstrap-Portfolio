@@ -1,3 +1,7 @@
+.navbar {
+    padding:0px;
+}
+
 .main-section {
     float: left;
     width: 100%;
@@ -9,10 +13,10 @@
   }
  
   #masthead {
-    /* position: relative; */
+   
     z-index: 99;
     width: 100%;
-    margin: 0 auto 30px;
+    margin: 0 0 30px;
     overflow: auto;
     color: #ffffff;
     background: #ffffff;
@@ -23,11 +27,19 @@
   .container {
     width: 100%;
     max-width: 960px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     clear: both;
   }
 
+p {
+      margin-top: 20px;
+  }
+
   footer {
+      
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     padding: 30px 0;
     clear: both;
     font-size: 12px;
@@ -66,7 +78,7 @@ h3 {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: Georgia, Times, "Times New Roman", serif;   
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
