@@ -35,6 +35,11 @@ p {
       margin-top: 20px;
   }
 
+  html{
+    position: relative; 
+    min-height: 100%;
+  }
+
   footer {
       
     position: absolute;
