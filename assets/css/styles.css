@@ -106,6 +106,7 @@ h3 {
   /* Styling for the portfolio images */
   .portImage{
     width: 274px;
+    height: 200px;
   }
 
   /* styling for the text on portfolio images */
